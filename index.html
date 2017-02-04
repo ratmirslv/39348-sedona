@@ -9,21 +9,21 @@
 			<div class="container">
 				<nav class="navigation">
 					<ul> 
-					<li>
-						<a href="index.html">Информация</a>
-					</li>
-					<li>
-						<a href="index.html">Фото и видео</a>
-					</li>
-					<li>
-						<a href="index.html"><img src="#" width="50" height="50" alt="Logo"></a>
-					</li>
-					<li>
-						<a href="index.html">Карта штата</a>
-					</li>
-					<li>
-						<a href="catalog.html">Гостиницы</a>
-					</li>
+						<li>
+							<a href="index.html">Информация</a>
+						</li>
+						<li>
+							<a href="index.html">Фото и видео</a>
+						</li>
+						<li>
+							<a href="index.html"><img src="#" width="50" height="50" alt="Logo"></a>
+						</li>
+						<li>
+							<a href="index.html">Карта штата</a>
+						</li>
+						<li>
+							<a href="catalog.html">Гостиницы</a>
+						</li>
 					</ul>
 				</nav>	
 			</div>
@@ -50,7 +50,7 @@
 							<img src="img/city-sedona.png" width="368" height="204" alt="city-sedona">
 						</div>
 					</section>
-					<section class="facts">
+					<section class="main-facts">
 						<div class="col">
 							<h3>Жилье</h3>
 							<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>	
@@ -73,7 +73,7 @@
 							<p>Да, там по нему можно пройти! Если конечно вы осмелитесь</p>
 						</div> 	
 					</section>
-					<section class="facts-2">
+					<section class="side-facts">
 						<div class="col">
 							<h3>Небольшая площадь</h3>
 							<p>Все достопримечательности находятся очень близко</p>	
@@ -87,21 +87,43 @@
 							<p>Большинство едет в Гранд Каньон и толпятся там</p>
 						</div>
 					</section>
-					<section class="feedback-info">
-						<h3>Заинтересовались?</h3>
-						<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-					</section>
-					<article class="search">
-						<!-- не знаю как сделать форму -->
-						<form method="post">
-							<h3>Поиск гостиниц в седоне</h3>
-							<p>Дата заезда:</p><input type="text" name="input-data" value="24 апреля 2016">
-							<p>Дата выезда:</p><input type="text" name="ouput-data" value="4 июля 2016">
-							<p>Взрослые:</p>
-							<p>Дети:</p>
-							<input type="submit" value="Найти">
-						</form>
-					</article>
+					<!-- Форма -->
+					<div class="offer">
+						<p class="offer-title">Заинтересовались?</p>
+						<p class="offer-info">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+						<div class="offer-block">
+							<a class="offer-btn" href="#">Поиск гостиницы в Седоне</a>
+							<div class="offer-form">
+								<form method="post">
+									<div class="offer-form-dates">
+										<div class="offer-form-row">
+											<label class="offer-form-label" for="offer-arrive-date">Дата заезда:</label>
+											<input type="date" id="offer-arrive-date" required>
+										</div>
+										<div class="offer-form-row">
+											<label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
+											<input type="date" id="offer-departure-date" required>
+										</div>
+									</div>
+									<div class="offer-form-row">
+										<div class="offer-form-col offer-col-adult">
+												<label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
+												<input type="text" id="offer-audit-adult" value="2" required>
+												<a class="offer-controls-subtract" href="#"></a>
+												<a class="offer-controls-add" href="#"></a>
+										</div>
+										<div class="offer-form-col offer-col-junior">
+												<label class="offer-form-label" for="offer-audit-junior">Детей:</label>
+												<input type="text" id="offer-audit-junior" value="0" required>
+												<a class="offer-controls-subtract" href="#"></a>
+												<a class="offer-controls-add" href="#"></a>
+										</div>
+									</div>
+									<button class="offer-form-btn" type="submit">Найти</button>
+								</form>
+							</div>
+						</div>
+					</div>
 					<div class="map">
 						<img src="img/map.png" width="368" height="204" alt="map">
 					</div>

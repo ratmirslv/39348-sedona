@@ -8,21 +8,21 @@
 		<header class="main-header">
 			<div class="container">	
 				<nav class="navigation">
-					<ul id=left-side>
-					<li>
-						<a href="index.html">Информация</a>
-					</li>
-					<li>
-						<a href="index.html">Фото и видео</a>
-					</li>
+					<ul>
+						<li>
+							<a href="index.html">Информация</a>
+						</li>
+						<li>
+							<a href="index.html">Фото и видео</a>
+						</li>
 					</ul>
-					<ul id=right-side>
-					<li>
-						<a href="index.html">Карта штата</a>
-					</li>
-					<li>
-						<a href="catalog.html">Гостиницы</a>
-					</li>
+					<ul>
+						<li>
+							<a href="index.html">Карта штата</a>
+						</li>
+						<li>
+							<a href="catalog.html">Гостиницы</a>
+						</li>
 					</ul>
 					<div class="logo">
 						<a href="index.html"><img src="#" width="50" height="50" alt="Logo"></a>
@@ -32,98 +32,86 @@
 		</header>
 		<main class="main-body">
 			<div class="container">
-				<section class="filter">
-					<form action="catalog.html#" method="post">
-						<div class="infrastructure">
-							<h3>Инфраструктура:</h3>
-							<p><input type="checkbox" name="waterpool" id="ch1">
-								<label for="ch1">Бассейн</label></p>
-							<p><input type="checkbox" name="parking" id="ch2">
-								<label for="ch2">Парковка</label></p>
-							<p><input type="checkbox" name="wifi" id="ch3">
-								<label for="ch3">WI-FI</label></p>
+				<div class="filter">
+					<form method="post">
+						<div class="filter-infrastructure">
+							<p class="filter-infrastructure-title">Инфраструктура:</p>
+							<input type="checkbox" id="filter-pool" checked>
+							<label class="filter-variant" for="filter-pool">Бассейн</label>
+							<input type="checkbox" id="filter-parking">
+							<label class="filter-variant" for="filter-parking">Парковка</label>
+							<input type="checkbox" id="filter-wifi">
+							<label class="filter-variant" for="filter-wifi">wi-fi</label>
 						</div>
-						<div class="type-house">
-							<h3>Тип жилья:</h3>
-								<p><input type="checkbox" name="hotel" id="ch4">
-									<label for="ch4">Гостиница</label></p>
-								<p><input type="checkbox" name="motel" id="ch5">
-									<label for="ch5">Мотель</label></p>
-								<p><input type="checkbox" name="apartments" id="ch6">
-									<label for="ch6">Апартаменты</label></p>
+						<div class="filter-housing">
+							<p class="filter-housing-title">Тип жилья:</p>
+							<input type="checkbox" id="filter-hotel" checked>
+							<label class="filter-variant" for="filter-hotel">Гостиница</label>
+							<input type="checkbox" id="filter-motel" checked>
+							<label class="filter-variant" for="filter-motel">Мотель</label>
+							<input type="checkbox" id="filter-apartment" checked>
+							<label class="filter-variant" for="filter-apartment">Апартаменты</label>
 						</div>
-						<div class="cost">
-							<h3>Стоимость в сутки (p):</h3>
-							<div class="range-filter">
-								<div class="price-controls">
-									<label for="fl1">от</label><input class="minPrice" type="text" value="0" id="fl1">
-									<label for="fl2">до</label><input class="maxPrice" type="text" value="3000" id="fl2">
+						<div class="filter-price">
+							<p class="filter-price-title">Стоимость в сутки (Р):</p>
+							<div class="filter-price-controll">
+								<div class="filter-price-boundaries">
+									<input type="text" value="От 0" required>
+									<input type="text" value="До 30000" required>
 								</div>
-								<div class="range-controls">
-									<!-- ползунок сделаю позже -->
+								<div class="filter-price-scale">
+									<div class="filter-scale-toggle filter-min-toggle"></div>
+									<div class="filter-scale-toggle filter-max-toggle"></div>
 								</div>
-								<button type="submit" class="btn">Показать</button>
-							</div> 
-						</div>        
+							</div>
+							<button class="filter-btn" type="submit">Показать</button>
+						</div>
 					</form>
-				</section>
-				<section class="sort-rezalt">
-					<p>найдено:3</p>
-					<p>Сортировка:</p>
-					<!-- Сделать как кнопки? -->
-					<ul>
-							<li><a href=""></a>По цене</li>
-							<li><a href=""></a>По типу</li>
-							<li><a href=""></a>По рейтингу</li>
-					</ul>
-					<!-- Как сделать сортировку от большего к меньшему и наоборот? -->
-				</section>
-				<section class="rezalt-1">
+				</div>
+				<div class="sort-result">
+					<div class="options-left-column">
+						<span class="options-found">Найдено: 3</span>
+						<span class="options-about">Сортировка:</span>
+						<a href="#" class="options-variant options-price options-active">По цене</a>
+						<a href="#" class="options-variant options-type">По типу</a>
+						<a href="#" class="options-variant options-functions">По рейтингу</a>
+					</div>
+					<div class="options-right-column">
+						<a class="options-up-arrow options-active" href="#"></a>
+						<a class="options-down-arrow" href="#"></a>
+					</div>
+				</div>
+				<section class="result-1">
 					<img src="#" width="#" height="#" alt="Amara_Resort_Spa">
 					<h2>Amara Resort & Spa</h2>
 					<p>Гостиница</p>
 					<p>от 4000 р.</p>
 					<a href="catalog.html#" class="details">Подробнее</a>
 					<a href="catalog.html#" class="book">Забронировать</a>
-					<div class="rezalt-rating">
-						<div class="star">
-							<i class="icon-star" align="right"></i>
-							<i class="icon-star" align="right"></i>
-							<i class="icon-star" align="right"></i>
-							<i class="icon-star" align="right"></i> 
-						</div>
-						<span id="rating">Рейтинг: 8,5</span>        
+					<div class="result-rating-four">
+						<p class="result-rating-info">Рейтинг: 8,5</p>						       
 					</div>
 				</section>
-				<section class="rezalt-2">
+				<section class="result-2">
 					<img src="#" width="#" height="#" alt="Desert_Quail_Inn">
 					<h2>Desert Quail Inn</h2>
 					<p>Мотель</p>
 					<p>от 3000 р.</p>
 					<a href="catalog.html#" class="details">Подробнее</a>
 					<a href="catalog.html#" class="book">Забронировать</a>    
-					<div class="rezalt-rating">
-						<div class="star">
-							<i class="icon-star" align="right"></i>
-							<i class="icon-star" align="right"></i>
-							<i class="icon-star" align="right"></i>
-						</div>
-						<span id="rating">Рейтинг: 8,9</span>        
+					<div class="result-rating-three">
+						<p class="result-rating-info">Рейтинг: 8,9</p>      
 					</div>
 				</section>
-				<section class="rezalt-3">
+				<section class="result-3">
 					<img src="#" width="#" height="#" alt="Villas_at_Poco_Diablo">
 					<h2>Villas at Poco Diablo</h2>
 					<p>Апартаменты</p>
 					<p>от 2000 р.</p>
 					<a href="catalog.html#" class="details">Подробнее</a>
 					<a href="catalog.html#" class="book">Забронировать</a>      
-					<div class="rezaltRating">
-						<div class="star">
-							<i class="icon-star" align="right"></i>
-							<i class="icon-star" align="right"></i>
-						</div>
-						<span id="rating">Рейтинг: 9,2</span>       
+					<div class="result-rating-two">
+						<p class="result-rating-info">Рейтинг: 9,2</p>      
 					</div>
 				</section>
 			</div>  
