@@ -1,3 +1,31 @@
+@charset "utf-8";
+@font-face {
+    font-family: "wisdom_scriptregular";
+    font-weight: 400;
+    font-style: normal;
+
+    src: url(../fonts/wisdom_script_aj-webfont.eot);
+    src: url(../fonts/wisdom_script_aj-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/wisdom_script_aj-webfont.woff) format("woff"), url(../fonts/wisdom_script_aj-webfont.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "sullivanfill";
+    font-weight: 400;
+    font-style: normal;
+
+    src: url(../fonts/sullivan-fill-webfont.eot);
+    src: url(../fonts/sullivan-fill-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/sullivan-fill-webfont.woff) format("woff"), url(../fonts/sullivan-fill-webfont.ttf) format("truetype"), url(../fonts/sullivan-fill-webfont.svg#sullivanfill) format("svg");
+}
+
+@font-face {
+    font-family: "zeroneroblack";
+    font-weight: 400;
+    font-style: normal;
+
+    src: url(../fonts/zeronero-webfont.eot);
+    src: url(../fonts/zeronero-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/zeronero-webfont.woff) format("woff"), url(../fonts/zeronero-webfont.ttf) format("truetype"), url(../fonts/zeronero-webfont.svg#zeroneroblack) format("svg");
+}
+
 body {
 		min-width: 768px;
 		margin: 0;
@@ -8,6 +36,7 @@ body {
 		background-color: #f2f2f2;
 
 		font-family: "PT Sans", sans-serif, Arial;
+}
 
 p,
 ul,
@@ -48,6 +77,134 @@ label {
 		margin: 0 auto;
 		background-color: #ffffff;
 		padding-left:20px;
-	}
+}
+
+
+.navigation {
+		min-height: 56px;
+		font-size: 0;
+}
+
+.navigation a {
+		display: inline-block;
+		width: 20%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		vertical-align: top;
+}
+
+.navigation .menu-logo {
+		position: relative;
+		z-index: 50;
+		height: 56px;
+		padding: 0;
+}
+
+.navigation a {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #000000;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 26px;
+}
+
+.navigation {
+		min-height: 56px;
+		font-size: 0;
+}
+
+.card {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: #647e94 0 20% no-repeat url(../img/index-logo.jpg);
+    background-size: 100% auto;
+}
+
+.card:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 57px;
+    content: "";
+    background: 0 0 no-repeat url(../img/logo-shape.png);
+    background-size: 100% 57px;
+}
+
+.card-greetings {
+    color: #81b3d2;
+    font-family: "sullivanfill", sans-serif, Arial;
+    font-size: 63px;
+    line-height: 70px;
+}
+
+.card-subgreetings {
+    text-transform: none;
+    color: #766357;
+    font-family: "wisdom_scriptregular", sans-serif, Arial;
+    font-size: 29px;
+    line-height: 44px;
+}
+
+.card-subgreetings {
+    position: relative;
+    top: -17px;
+    width: 200px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+}
+
+.card-subgreetings:before {
+    position: absolute;
+    top: 25px;
+    left: -29px;
+    width: 29px;
+    height: 2px;
+    content: "";
+    background-color: #766357;
+}
+
+.card-subgreetings:after {
+    position: absolute;
+    top: 25px;
+    right: -29px;
+    width: 29px;
+    height: 2px;
+    content: "";
+    background-color: #766357;
+}
+
+.card-title {
+    color: #ffffff;
+    font-family: "zeroneroblack", sans-serif, Arial;
+    font-size: 116px;
+    line-height: 142px;
+}
+
+.card-title {
+    margin: 10px;
+}
+
+.card-slogan {
+    text-transform: none;
+    color: #ffffff;
+    font-family: "wisdom_scriptregular", sans-serif, Arial;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.card-slogan {
+    width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
 
 
