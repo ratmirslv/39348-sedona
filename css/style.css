@@ -1,40 +1,37 @@
 @charset "utf-8";
 @font-face {
-    font-family: "wisdom_scriptregular";
-    font-weight: 400;
-    font-style: normal;
+		font-family: "wisdom_scriptregular";
+		font-weight: 400;
+		font-style: normal;
 
-    src: url(../fonts/wisdom_script_aj-webfont.eot);
-    src: url(../fonts/wisdom_script_aj-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/wisdom_script_aj-webfont.woff) format("woff"), url(../fonts/wisdom_script_aj-webfont.ttf) format("truetype");
+		src: url(../fonts/wisdom_script_aj-webfont.eot);
+		src: url(../fonts/wisdom_script_aj-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/wisdom_script_aj-webfont.woff) format("woff"), url(../fonts/wisdom_script_aj-webfont.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "sullivanfill";
-    font-weight: 400;
-    font-style: normal;
+		font-family: "sullivanfill";
+		font-weight: 400;
+		font-style: normal;
 
-    src: url(../fonts/sullivan-fill-webfont.eot);
-    src: url(../fonts/sullivan-fill-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/sullivan-fill-webfont.woff) format("woff"), url(../fonts/sullivan-fill-webfont.ttf) format("truetype"), url(../fonts/sullivan-fill-webfont.svg#sullivanfill) format("svg");
+		src: url(../fonts/sullivan-fill-webfont.eot);
+		src: url(../fonts/sullivan-fill-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/sullivan-fill-webfont.woff) format("woff"), url(../fonts/sullivan-fill-webfont.ttf) format("truetype"), url(../fonts/sullivan-fill-webfont.svg#sullivanfill) format("svg");
 }
 
 @font-face {
-    font-family: "zeroneroblack";
-    font-weight: 400;
-    font-style: normal;
+		font-family: "zeroneroblack";
+		font-weight: 400;
+		font-style: normal;
 
-    src: url(../fonts/zeronero-webfont.eot);
-    src: url(../fonts/zeronero-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/zeronero-webfont.woff) format("woff"), url(../fonts/zeronero-webfont.ttf) format("truetype"), url(../fonts/zeronero-webfont.svg#zeroneroblack) format("svg");
+		src: url(../fonts/zeronero-webfont.eot);
+		src: url(../fonts/zeronero-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/zeronero-webfont.woff) format("woff"), url(../fonts/zeronero-webfont.ttf) format("truetype"), url(../fonts/zeronero-webfont.svg#zeroneroblack) format("svg");
 }
 
 body {
 		min-width: 768px;
 		margin: 0;
 		padding: 0;
-
 		text-transform: uppercase;
-
 		background-color: #f2f2f2;
-
 		font-family: "PT Sans", sans-serif, Arial;
 }
 
@@ -76,7 +73,6 @@ label {
 		max-width: 1200px;
 		margin: 0 auto;
 		background-color: #ffffff;
-		padding-left:20px;
 }
 
 /* Шапка */
@@ -119,124 +115,370 @@ label {
 /* Главный фон */
 
 .card {
-    position: relative;
-    padding-top: 70px;
-    padding-bottom: 90px;
-    text-align: center;
-    background: #647e94 0 20% no-repeat url(../img/index-logo.jpg);
-    background-size: 100% auto;
+		position: relative;
+		padding-top: 70px;
+		padding-bottom: 90px;
+		text-align: center;
+		background: #647e94 0 20% no-repeat url(../img/index-logo.jpg);
+		background-size: 100% auto;
 }
 
 .card:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 57px;
-    content: "";
-    background: 0 0 no-repeat url(../img/logo-shape.png);
-    background-size: 100% 57px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 57px;
+		content: "";
+		background: 0 0 no-repeat url(../img/logo-shape.png);
+		background-size: 100% 57px;
 }
 
 .card-greetings {
-    color: #81b3d2;
-    font-family: "sullivanfill", sans-serif, Arial;
-    font-size: 63px;
-    line-height: 70px;
+		color: #81b3d2;
+		font-family: "sullivanfill", sans-serif, Arial;
+		font-size: 63px;
+		line-height: 70px;
 }
 
 .card-subgreetings {
-    text-transform: none;
-    color: #766357;
-    font-family: "wisdom_scriptregular", sans-serif, Arial;
-    font-size: 29px;
-    line-height: 44px;
+		text-transform: none;
+		color: #766357;
+		font-family: "wisdom_scriptregular", sans-serif, Arial;
+		font-size: 29px;
+		line-height: 44px;
 }
 
 .card-subgreetings {
-    position: relative;
-    top: -17px;
-    width: 200px;
-    margin-right: auto;
-    margin-bottom: 5px;
-    margin-left: auto;
+		position: relative;
+		top: -17px;
+		width: 200px;
+		margin-right: auto;
+		margin-bottom: 5px;
+		margin-left: auto;
 }
 
 .card-subgreetings:before {
-    position: absolute;
-    top: 25px;
-    left: -29px;
-    width: 29px;
-    height: 2px;
-    content: "";
-    background-color: #766357;
+		position: absolute;
+		top: 25px;
+		left: -29px;
+		width: 29px;
+		height: 2px;
+		content: "";
+		background-color: #766357;
 }
 
 .card-subgreetings:after {
-    position: absolute;
-    top: 25px;
-    right: -29px;
-    width: 29px;
-    height: 2px;
-    content: "";
-    background-color: #766357;
+		position: absolute;
+		top: 25px;
+		right: -29px;
+		width: 29px;
+		height: 2px;
+		content: "";
+		background-color: #766357;
 }
 
 .card-title {
-    color: #ffffff;
-    font-family: "zeroneroblack", sans-serif, Arial;
-    font-size: 116px;
-    line-height: 142px;
+		color: #ffffff;
+		font-family: "zeroneroblack", sans-serif, Arial;
+		font-size: 116px;
+		line-height: 142px;
 }
 
 .card-title {
-    margin: 10px;
+		margin: 10px;
 }
 
 .card-slogan {
-    text-transform: none;
-    color: #ffffff;
-    font-family: "wisdom_scriptregular", sans-serif, Arial;
-    font-size: 36px;
-    line-height: 36px;
+		text-transform: none;
+		color: #ffffff;
+		font-family: "wisdom_scriptregular", sans-serif, Arial;
+		font-size: 36px;
+		line-height: 36px;
 }
 
 .card-slogan {
-    width: 340px;
-    margin-right: auto;
-    margin-left: auto;
+		width: 340px;
+		margin-right: auto;
+		margin-left: auto;
 }
 
 /* Основная информация */
 
 .main-info {
-    padding-top: 62px;
-    padding-bottom: 50px;
+		padding-top: 62px;
+		padding-bottom: 50px;
 }
 
-.main-info {
-    text-decoration: none;
-    color: #000000;
+.main-info,
+.col-title {
+		text-decoration: none;
+		color: #000000;
+		font-size: 21px;
+		font-weight: 700;
+		line-height: 26px;
+}
+
+.main-description{
+		margin-bottom: 25px;
+}
+
+.side-description,
+.col-about{
+		color: #000000;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 26px;
+}
+
+.main-description,
+.side-description{
+		width: 500px;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+}
+
+.cause-text-left {
+    overflow: hidden;
+    height: 256px;
+    font-size: 0;
+}
+
+.city-description {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+    height: 310px;
+    padding-top: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    vertical-align: top;
+    background-color: #81b3d2;
+}
+
+.city-description-title,
+.devilbridge-description-title{
+    text-transform: uppercase;
+    color: #ffffff;
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
 }
 
-.main-description{
-    margin-bottom: 25px;
+.city-description-title{
+		width: 130px;
+    margin-bottom: 15px;
 }
 
-.side-description{
-    color: #000000;
-    /* font-size: 14px; */
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.main-description,
-.side-description{
-    width: 500px;
+.city-description p{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+}
+
+.city-description-number,
+.city-description-subtitle,
+.devilbridge-description-number,
+.devilbridge-description-subtitle{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.city-description-number,
+.city-description-subtitle,
+.devilbridge-description-number,
+.devilbridge-description-subtitle{
+    color: #ffffff;
+}
+
+.city-description-number {
+    position: relative;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.city-description-number:before {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 9px;
+    height: 2px;
+    content: "";
+    background-color: #ffffff;
+}
+
+.city-description-number:after{
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 9px;
+    height: 2px;
+    content: "";
+    background-color: #ffffff;
+}
+
+.img-right{
+	  margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.img-right {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+}
+
+.img-right img {
+    display: block;
+    width: 100%;
+}
+
+.city-description-subtitle{
+width: 280px;
+}
+
+.main-facts{
+	font-size: 0;
+}
+
+.col{
+   	display: inline-block;
+    box-sizing: border-box;
+    width: 33.33%;
+    min-height: 330px;
+    padding-top: 160px;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.col-title{
+    position: relative;
+    width: 150px;
+    margin-right: auto;
+    margin-bottom: 21px;
+    margin-left: auto;
+}
+
+.housing .col-title:before {
+    position: absolute;
+    top: -100px;
+    left: 38px;
+    width: 75px;
+    height: 75px;
+    content: "";
+    background: 0 0 no-repeat url(../img/sprite.png);
+}
+
+.food .col-title:before{
+    position: absolute;
+    top: -95px;
+    left: 34px;
+    width: 80px;
+    height: 75px;
+    content: "";
+    background: -100px 0 no-repeat url(../img/sprite.png);
+}
+
+.souvenirs .col-title:before{
+    position: absolute;
+    top: -95px;
+    left: 42px;
+    width: 80px;
+    height: 75px;
+    content: "";
+    background: -207px 0 no-repeat url(../img/sprite.png);
+}
+
+.img-left{
+		display: inline-block;
+    width: 67%;
+    vertical-align: top;
+}
+
+.img-left{
+	  margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.cause-text-left {
+    overflow: hidden;
+    height: 256px;
+    font-size: 0;
+}
+
+.img-left img {
+    display: block;
+    width: 100%;
+}
+
+img {
+    border: 0;
+}
+
+.cause-text-right {
+    overflow: hidden;
+    height: 256px;
+    font-size: 0;
+}
+.devilbridge {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+    height: 310px;
+    padding-top: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    vertical-align: top;
+    background-color: #81b3d2;
+}
+
+.devilbridge-description-number {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.devilbridge-description-title {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.devilbridge p {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.devilbridge-description-number {
+    position: relative;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.devilbridge-description-number:after {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 9px;
+    height: 2px;
+    content: "";
+    background-color: #ffffff;
+}
+
+.devilbridge-description-number:before {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 9px;
+    height: 2px;
+    content: "";
+    background-color: #ffffff;
 }
