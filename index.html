@@ -68,42 +68,46 @@
 					<section class="side-facts">
 						<div class="col square">
 							<p class="col-title">Небольшая площадь</p>
+							<p class="col-number">№3</p>
 							<p class="col-about">Все достопримечательности находятся очень близко</p>	
 						</div>
 						<div class="col road">
 							<p class="col-title">Красивая дорога</p>
+							<p class="col-number">№4</p>
 							<p class="col-about">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
 						</div>
 						<div class="col tourist">
-							<p class="col-title">Мало туристов</p>	
+							<p class="col-title">Мало туристов</p>
+							<p class="col-number">№5</p>	
 							<p class="col-about">Большинство едет в Гранд Каньон и толпятся там</p>
 						</div>
 					</section>
 					<!-- Форма -->
 					<div class="offer">
 						<p class="offer-title">Заинтересовались?</p>
+						<p class="offer-info">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
 						<div class="offer-block">
 							<a class="offer-btn" href="#">Поиск гостиницы в Седоне</a>
 							<div class="offer-form">
 								<form method="post">
 									<div class="offer-form-dates">
 										<div class="offer-form-row">
-											<label class="offer-form-label" for="offer-arrive-date">Дата заезда:</label>
+											<label class="offer-form-label clearfix" for="offer-arrive-date">Дата заезда:</label>
 											<input type="date" id="offer-arrive-date" required>
 										</div>
-										<div class="offer-form-row">
+										<div class="offer-form-row clearfix">
 											<label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
 											<input type="date" id="offer-departure-date" required>
 										</div>
 									</div>
-									<div class="offer-form-row">
-										<div class="offer-form-col offer-col-adult">
+									<div class="offer-form-row clearfix">
+										<div class="offer-form-col offer-col-adult clearfix">
 												<label class="offer-form-label" for="offer-audit-adult">Взрослых:</label>
 												<input type="text" id="offer-audit-adult" value="2" required>
 												<a class="offer-controls-subtract" href="#"></a>
 												<a class="offer-controls-add" href="#"></a>
 										</div>
-										<div class="offer-form-col offer-col-junior">
+										<div class="offer-form-col offer-col-junior clearfix">
 												<label class="offer-form-label" for="offer-audit-junior">Детей:</label>
 												<input type="text" id="offer-audit-junior" value="0" required>
 												<a class="offer-controls-subtract" href="#"></a>
@@ -116,7 +120,9 @@
 						</div>
 					</div>
 					<div class="map">
-						<img src="img/map-image.jpg" width="1200" height="593" alt="map">
+						<div class="map-image"></div>
+							<img src="img/map-image.jpg" alt="Карта Седоны">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -127,13 +133,13 @@
 					<p>#Visitsedona</p>
 				</section>
 				<section class="footer-social">
-					<a class="social-btn social-btn-vkontakte" href="#">Вконтакте</a>
-					<a class="social-btn social-btn-facebook" href="#">Фейсбук</a>
-					<a class="social-btn social-btn-instagram" href="#">Youtube</a>
+					<a class="social-btn social-btn-twitter" href="#">Twitter</a>
+					<a class="social-btn social-btn-facebook" href="#">Facebook</a>
+					<a class="social-btn social-btn-youtube" href="#">Youtube</a>
 				</section>
 				<section class="footer-copyright">
-					<p>Website by</p>
-					<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+					<span class="footer-copyright-by">Website by</span>
+					<a class="footer-copyright-log" href="https://htmlacademy.ru">HTML Academy</a>
 				</section>
 			</div>
 		</footer>
