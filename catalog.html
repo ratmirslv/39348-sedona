@@ -4,8 +4,9 @@
 		<meta charset="UTF-8">
 		<title>Седона - Каталог</title>
 		<link rel="StyleSheet" href="css/style.css" type="text/css">
+		<link rel="StyleSheet" href="css/normalize.css" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-	</head
+	</head>
 	<body>
 		<header class="main-header">
 			<div class="container">
@@ -14,13 +15,13 @@
 					<a href="index.html">Фото и видео</a>
 					<a href="index.html" class="menu-logo"><img src="img/menu-logo.png" width="138" height="70" alt="Logo"></a>
 					<a href="index.html">Карта штата</a>
-					<a href="catalog.html">Гостиницы</a>
+					<a class="menu-active" href="catalog.html">Гостиницы</a>
 				</nav>
 			</div>
 		</header>
 		<main class="main-body">
 			<div class="container">
-				<div class="filter">
+				<div class="filter clearfix">
 					<form method="post">
 						<div class="filter-infrastructure">
 							<p class="filter-infrastructure-title">Инфраструктура:</p>
@@ -56,7 +57,7 @@
 						</div>
 					</form>
 				</div>
-				<div class="sort-result">
+				<div class="sort-result clearfix">
 					<div class="options-left-column">
 						<span class="options-found">Найдено: 3</span>
 						<span class="options-about">Сортировка:</span>
@@ -65,8 +66,8 @@
 						<a href="#" class="options-variant options-functions">По рейтингу</a>
 					</div>
 					<div class="options-right-column">
-						<a class="options-up-arrow options-active" href="#"></a>
-						<a class="options-down-arrow" href="#"></a>
+						<a class="options-up-arrow" href="#"></a>
+						<a class="options-down-arrow options-active" href="#"></a>
 					</div>
 				</div>
 				<section class="result-housing amara">
@@ -110,13 +111,13 @@
 					<p>#Visitsedona</p>
 				</section>
 				<section class="footer-social">
-					<a class="social-btn social-btn-vkontakte" href="#">Вконтакте</a>
-					<a class="social-btn social-btn-facebook" href="#">Фейсбук</a>
-					<a class="social-btn social-btn-instagram" href="#">Youtube</a>
+					<a class="social-btn social-btn-twitter" href="#">Twitter</a>
+					<a class="social-btn social-btn-facebook" href="#">Facebook</a>
+					<a class="social-btn social-btn-youtube" href="#">Youtube</a>
 				</section>
 				<section class="footer-copyright">
-					<p>Website by</p>
-					<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+					<span class="footer-copyright-by">Website by</span>
+					<a class="footer-copyright-log" href="https://htmlacademy.ru">HTML Academy</a>
 				</section>
 			</div>
 		</footer>
