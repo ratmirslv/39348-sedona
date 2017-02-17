@@ -283,7 +283,9 @@ label {
 .devilbridge-description-number,
 .devilbridge-description-subtitle,
 .col-number,
-.col-about{
+.col-about,
+.result-housing-type,
+.result-about-price{
 		color: #000000;
 		font-size: 14px;
 		font-weight: 400;
@@ -375,27 +377,27 @@ width: 280px;
 		width: 75px;
 		height: 75px;
 		content: "";
-		background: 0 0 no-repeat url(../img/sprite.png);
+		background: -289px -4px no-repeat url(../img/sprite.png);
 }
 
 .food .col-title:before{
 		position: absolute;
 		top: -95px;
 		left: 34px;
-		width: 80px;
-		height: 75px;
+		width: 74px;
+		height: 70px;
 		content: "";
-		background: -100px 0 no-repeat url(../img/sprite.png);
+		background: -207px -4px no-repeat url(../img/sprite.png);
 }
 
 .souvenirs .col-title:before{
 		position: absolute;
 		top: -95px;
 		left: 42px;
-		width: 80px;
-		height: 75px;
+		width: 64px;
+		height: 76px;
 		content: "";
-		background: -207px 0 no-repeat url(../img/sprite.png);
+		background: -411px -4px no-repeat url(../img/sprite.png);
 }
 
 .img-left{
@@ -451,10 +453,6 @@ img {
 .devilbridge-description-title {
 		width: 180px;
 		margin-bottom: 15px;
-}
-
-div {
-		display: block;
 }
 
 .devilbridge p {
@@ -630,7 +628,7 @@ label {
 		width: 21px;
 		height: 23px;
 		content: "";
-		background: -131px -93px no-repeat url(../img/sprite.png);
+		background: -60px -4px no-repeat url(../img/sprite.png);
 }
 
 .offer-form-row input {
@@ -677,10 +675,9 @@ label {
 		top: -1.5px;
 		left: -100px;
 		width: 11px;
-		height: 0;
 		height: 11px;
 		content: "";
-		background: -237px -88px no-repeat url(../img/sprite.png);
+		background: -372px -4px no-repeat url(../img/sprite.png);
 }
 
 .offer-controls-add:after {
@@ -691,7 +688,7 @@ label {
 		height: 0;
 		height: 11px;
 		content: "";
-		background: -262px -84px no-repeat url(../img/sprite.png);
+		background: -392px -4px no-repeat url(../img/sprite.png);
 }
 
 .offer-form-col {
@@ -781,19 +778,19 @@ label {
 .social-btn-twitter:before {
 		top: 15px;
 		left: 15px;
-		background: -396px -101px no-repeat url(../img/sprite.png);
+		background: -633px -19px no-repeat url(../img/sprite.png);
 }
 
 .social-btn-facebook:before {
 		top: 15px;
 		left: 17px;
-		background: -430px -99px no-repeat url(../img/sprite.png);
+		background: -170px -18px no-repeat url(../img/sprite.png);
 }
 
 .social-btn-youtube:before {
 		top: 17px;
 		left: 12px;
-		background: -464px -102px no-repeat url(../img/sprite.png);
+		background: -685px -20px no-repeat url(../img/sprite.png);
 }
 
 .footer-copyright-by{
@@ -869,10 +866,6 @@ p, ul, h3, h2, h1, input, figure {
 		display: none;
 }
 
-input:disabled + .filter-variant:before {
-		background: -406px -1px no-repeat url(../img/sprite.png);
-}
-
 .filter-btn, 
 .filter-variant, 
 .filter-price-controll,
@@ -895,10 +888,10 @@ input + .filter-variant:before {
 		position: absolute;
 		top: 0;
 		left: -40px;
-		width: 20px;
-		height: 20px;
-		content: "";
-		background: -406px -32px no-repeat url(../img/sprite.png);
+			width: 22px;
+			height: 22px;
+			content: "";
+			background: -89px -4px no-repeat url(../img/sprite.png);
 }
 
 .filter-housing-title,
@@ -910,14 +903,11 @@ input:checked + .filter-variant:before {
 		position: absolute;
 		top: 0;
 		left: -40px;
-		width: 20px;
-		height: 20px;
-		background: -380px -33px no-repeat url(../img/sprite.png);
+			width: 26px;
+			height: 22px;
+			background: -119px -4px no-repeat url(../img/sprite.png);
 }
 
-input:checked + .filter-variant:before {
-		background: -380px -33px no-repeat url(../img/sprite.png);
-}
 
 .filter-price {
 		float: right;
@@ -930,7 +920,9 @@ input:checked + .filter-variant:before {
 .filter-price-title {
 		margin-bottom: 9px;
 		text-align: left;
+		margin-left: -10px;
 }
+
 
 .filter-price-boundaries {
 		margin-bottom: 11px;
@@ -1026,20 +1018,10 @@ input:checked + .filter-variant:before {
 		right: 15%;
 }
 
-.filter-price-scale:after {
-		position: absolute;
-		top: 9px;
-		right: 15%;
-		left: 0;
-		height: 2px;
-		content: "";
-		background-color: #fff;
-}
-
 .sort-result {
 		padding-top: 29px;
 		padding-bottom: 30px;
-		border: 1px solid #e5e5e5;
+		border: 1px solid#cccccc;
 }
 
 
@@ -1135,17 +1117,151 @@ input:checked + .filter-variant:before {
 		content: "";
 		border-width: 10px 5px 0;
 		border-style: solid;
-		border-color: #e5e5e5 transparent transparent;
+		border-color: #cccccc transparent transparent;
 }
 
 .options-up-arrow:before {
 		border-width: 0 5px 10px;
-		border-color: transparent transparent #e5e5e5;
+		border-color: transparent transparent #cccccc;
 }
 
-.options-up-arrow.options-active:before {
-		border-color: transparent transparent #81b3d2;
+.options-down-arrow.options-active:before {
+		border-color: #81b3d2 transparent transparent;
 }
 
+.result-housing {
+		padding-top: 27px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #e5e5e5;
+}
 
+.result-housing-left {
+		float: left;
+		box-sizing: border-box;
+		width: 500px;
+		padding-left: 6%;
+		font-size: 0;
+}
 
+.result-housing-img, 
+.result-housing-infoblock {
+		display: inline-block;
+		vertical-align: top;
+}
+
+.result-housing-img {
+		width: 135px;
+		min-height: 90px;
+		margin-right: 31px;
+		padding-top: 3px;
+}
+
+figure {
+		line-height: 0;
+}
+
+.result-housing-infoblock {
+		width: 258px;
+}
+
+.result-infoblock-title{
+		text-decoration: none;
+		color: #000;
+		font-size: 21px;
+		font-weight: 700;
+		line-height: 26px;
+}
+
+.result-infoblock-title {
+		display: block;
+		max-width: 258px;
+		margin-bottom: 6px;
+}
+
+.result-about-housing {
+		float: left;
+		width: 110px;
+}
+
+.result-about-price,
+.result-housing-type {
+		margin-bottom: 11px;
+}
+
+.result-booking-btn, 
+.result-housing-more {
+		text-decoration: none;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 21px;
+}
+
+.result-housing-more {
+		display: block;
+		width: 100%;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		text-align: center;
+		background-color: #81b3d2;
+}
+
+.result-about-booking {
+		float: right;
+		width: 142px;
+}
+
+.result-booking-btn {
+		display: block;
+		width: 100%;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		text-align: center;
+		background-color: #766357;
+}
+
+.result-housing-ratings {
+		float: right;
+		box-sizing: border-box;
+		width: 190px;
+		padding-right: 5%;
+}
+
+.result-ratings-stars {
+		width: 114px;
+		min-height: 17px;
+		margin-bottom: 49px;
+}
+
+.result-ratings-four {
+		background: -483px -4px no-repeat url(../img/sprite.png);
+		width: 90px;
+		margin-left: 30px;
+}
+
+.result-ratings-three {
+		background: -483px -4px no-repeat url(../img/sprite.png);
+		width: 65px;
+		margin-left: 50px;
+}
+
+.result-ratings-two {
+		background: -483px -4px no-repeat url(../img/sprite.png);
+		width: 45px;
+		margin-left: 70px;
+}
+
+.result-mark-info {
+		color: #666;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 21px;
+}
+
+.result-mark-info {
+		width: 110px;
+		padding-top: 3px;
+		padding-bottom: 4px;
+		text-align: center;
+		background-color: #f2f2f2;
+}
