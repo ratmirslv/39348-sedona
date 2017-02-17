@@ -80,22 +80,37 @@ label {
 .navigation {
 		min-height: 56px;
 		font-size: 0;
+
 }
 
 .navigation a {
 		display: inline-block;
-		width: 20%;
 		padding-top: 15px;
 		padding-bottom: 15px;
 		text-align: center;
 		vertical-align: top;
+		margin-top: -2px;		
 }
 
-.navigation .menu-logo {
-		position: relative;
-		z-index: 50;
-		height: 56px;
-		padding: 0;
+.navigation a:nth-child(1) {
+    margin-right: 148px;
+}
+
+.navigation a:nth-child(2) {
+    margin-right: 388px;
+}
+
+.navigation a:nth-child(3) {
+    margin-right: 165px;
+}
+
+.menu-logo {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 46.0%;
+    top: 0;
+    z-index: 5;
 }
 
 .navigation a {
@@ -108,8 +123,7 @@ label {
 }
 
 .navigation {
-		min-height: 56px;
-		font-size: 0;
+    margin-left: 72px;
 }
 
 /* Главный фон */
