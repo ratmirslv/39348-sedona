@@ -93,24 +93,24 @@ label {
 }
 
 .navigation a:nth-child(1) {
-    margin-right: 148px;
+		margin-right: 148px;
 }
 
 .navigation a:nth-child(2) {
-    margin-right: 388px;
+		margin-right: 388px;
 }
 
 .navigation a:nth-child(3) {
-    margin-right: 165px;
+		margin-right: 165px;
 }
 
 .menu-logo {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    left: 46.0%;
-    top: 0;
-    z-index: 5;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		left: 46.0%;
+		top: 0;
+		z-index: 5;
 }
 
 .navigation a {
@@ -123,7 +123,7 @@ label {
 }
 
 .navigation {
-    margin-left: 72px;
+		margin-left: 72px;
 }
 
 /* Главный фон */
@@ -637,14 +637,6 @@ label {
 		vertical-align: middle;
 }
 
-.offer-form-dates input:after {
-		position: ;
-		width: 21px;
-		height: 23px;
-		content: "";
-		background: -60px -4px no-repeat url(../img/sprite.png);
-}
-
 .offer-form-row input {
 		position: static;
 		display: inline-block;
@@ -658,6 +650,32 @@ label {
 .offer-form-dates + .offer-form-row {
 		margin-bottom: 55px;
 }
+
+.icon-calendar-arrive {
+		right: 65px;
+		top: 65px;
+		width: 21px;
+		height: 22px;
+		background: no-repeat url(../img/sprite.png);
+		background-position: -60px -4px;
+}
+
+.icon-calendar-departure {
+		right: 65px;
+		top: 128px;
+		width: 21px;
+		height: 22px;
+		background: no-repeat url(../img/sprite.png);
+		background-position: -60px -4px;
+}
+
+.offer-form-row i {
+		font-size: 21px;
+		position: absolute;
+		color: #a9a9a9;
+		cursor: pointer;
+}
+
 
 .offer-form-col {
 		display: inline-block;
@@ -902,10 +920,10 @@ input + .filter-variant:before {
 		position: absolute;
 		top: 0;
 		left: -40px;
-			width: 22px;
-			height: 22px;
-			content: "";
-			background: -89px -4px no-repeat url(../img/sprite.png);
+		width: 22px;
+		height: 22px;
+		content: "";
+		background: -89px -4px no-repeat url(../img/sprite.png);
 }
 
 .filter-housing-title,
@@ -917,9 +935,9 @@ input:checked + .filter-variant:before {
 		position: absolute;
 		top: 0;
 		left: -40px;
-			width: 26px;
-			height: 22px;
-			background: -119px -4px no-repeat url(../img/sprite.png);
+		width: 26px;
+		height: 22px;
+		background: -119px -4px no-repeat url(../img/sprite.png);
 }
 
 
