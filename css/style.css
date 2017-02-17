@@ -83,6 +83,11 @@ label {
 
 }
 
+.navigation {
+		padding-left: 6%;
+		padding-right: 6%;
+}
+
 .navigation a {
 		display: inline-block;
 		padding-top: 15px;
@@ -101,14 +106,14 @@ label {
 }
 
 .navigation a:nth-child(3) {
-		margin-right: 165px;
+		margin-right: 164px;
 }
 
 .menu-logo {
 		padding: 0;
 		margin: 0;
 		position: absolute;
-		left: 46.0%;
+		left: 46.04%;
 		top: 0;
 		z-index: 5;
 }
@@ -120,10 +125,6 @@ label {
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 26px;
-}
-
-.navigation {
-		margin-left: 72px;
 }
 
 /* Главный фон */
@@ -888,11 +889,6 @@ form {
 		margin-bottom: 24px;
 }
 
-p, ul, h3, h2, h1, input, figure {
-		margin: 0;
-		padding: 0;
-}
-
 .filter-housing input, 
 .filter-infrastructure input {
 		display: none;
@@ -1276,7 +1272,6 @@ figure {
 		width: 65px;
 		margin-left: 50px;
 }
-
 .result-ratings-two {
 		background: -483px -4px no-repeat url(../img/sprite.png);
 		width: 45px;
@@ -1297,3 +1292,4 @@ figure {
 		text-align: center;
 		background-color: #f2f2f2;
 }
+
