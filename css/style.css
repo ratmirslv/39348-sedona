@@ -113,9 +113,10 @@ label {
 		padding: 0;
 		margin: 0;
 		position: absolute;
-		left: 46.04%;
+		left: 50%;
 		top: 0;
 		z-index: 5;
+		transform: translateX(-50%);
 }
 
 .navigation a {
@@ -134,8 +135,15 @@ label {
 		padding-top: 70px;
 		padding-bottom: 90px;
 		text-align: center;
-		background: #647e94 0 20% no-repeat url(../img/index-logo.jpg);
-		background-size: 100% auto;
+		background: #647E94 0 -56px no-repeat url(../img/index-logo.jpg);
+    background-size: 100% auto;
+    min-height: 348px;
+}
+
+.card img{
+		position: absolute;
+    top: 76px;
+    left: 372px;
 }
 
 .card:after {
@@ -221,8 +229,8 @@ label {
 /* Основная информация */
 
 .main-info {
-		padding-top: 62px;
-		padding-bottom: 50px;
+		padding-top: 59px;
+		padding-bottom: 52px;
 }
 
 .main-info,
@@ -235,7 +243,7 @@ label {
 }
 
 .main-description{
-		margin-bottom: 25px;
+		margin-bottom: 29px;
 }
 
 .side-description{
@@ -260,16 +268,16 @@ label {
 }
 
 .city-description {
-		display: inline-block;
-		box-sizing: border-box;
-		width: 33%;
-		height: 310px;
-		padding-top: 4%;
-		padding-right: 5%;
-		padding-left: 5%;
-		text-align: center;
-		vertical-align: top;
-		background-color: #81b3d2;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    height: 310px;
+    padding-top: 54px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #81b3d2;
 }
 
 .city-description-title,
@@ -284,13 +292,14 @@ label {
 
 .city-description-title{
 		width: 130px;
-		margin-bottom: 15px;
+		margin-bottom: 24px;
 }
 
 .city-description p{
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
+		line-height: 21px;
 }
 
 .city-description-number,
@@ -327,7 +336,7 @@ label {
 		width: 9px;
 		height: 2px;
 		content: "";
-		background-color: #ffffff;
+		background-color: #bcd6e7;
 }
 
 .city-description-number:after{
@@ -337,7 +346,7 @@ label {
 		width: 9px;
 		height: 2px;
 		content: "";
-		background-color: #ffffff;
+		background-color: #bcd6e7;
 }
 
 .img-right{
@@ -348,7 +357,7 @@ label {
 
 .img-right {
 		display: inline-block;
-		width: 67%;
+		width: 800px;
 		vertical-align: top;
 }
 
@@ -366,58 +375,83 @@ width: 280px;
 }
 
 .col{
-		display: inline-block;
-		box-sizing: border-box;
-		width: 33.33%;
-		min-height: 330px;
-		padding-top: 160px;
-		padding-right: 4%;
-		padding-left: 4%;
-		text-align: center;
-		vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    min-height: 330px;
+    padding-top: 163px;
+    padding-right: 4%;
+    padding-left: 4%;
+    text-align: center;
+    vertical-align: top;
 }
 
 .col-title{
-		position: relative;
-		width: 150px;
-		margin-right: auto;
-		margin-bottom: 21px;
-		margin-left: auto;
+    position: relative;
+    width: 150px;
+    margin-right: auto;
+    margin-bottom: 27px;
+    margin-left: auto;
 }
 
 .housing .col-title:before {
 		position: absolute;
-		top: -100px;
-		left: 38px;
-		width: 75px;
-		height: 75px;
-		content: "";
+    top: -99px;
+    left: 38px;
+    width: 75px;
+    height: 75px;
+    content: "";
 		background: -289px -4px no-repeat url(../img/sprite.png);
+}
+
+.housing p {
+    margin-top: -5px;
+}
+
+.food .col-title {
+    margin-bottom: 18px;
+    margin-top: -6px;
+    margin-left: 79px;
+}
+
+.souvenirs .col-about {
+    margin-top: -4px;
+    margin-left: 1px;
+}
+
+.food .col-about {
+    margin-top: 23px;
+    margin-left: 3px;
+}
+
+.souvenirs .col-title {
+    margin-top: -6px;
+    margin-left: 78px;
 }
 
 .food .col-title:before{
 		position: absolute;
-		top: -95px;
-		left: 34px;
-		width: 74px;
-		height: 70px;
-		content: "";
+    top: -96px;
+    left: 37px;
+    width: 75px;
+    height: 70px;
+    content: "";
 		background: -207px -4px no-repeat url(../img/sprite.png);
 }
 
 .souvenirs .col-title:before{
 		position: absolute;
-		top: -95px;
-		left: 42px;
-		width: 64px;
-		height: 76px;
-		content: "";
+    top: -102px;
+    left: 43px;
+    width: 64px;
+    height: 76px;
+    content: "";
 		background: -411px -4px no-repeat url(../img/sprite.png);
 }
 
 .img-left{
 		display: inline-block;
-		width: 67%;
+		width: 800px;
 		vertical-align: top;
 }
 
@@ -425,12 +459,6 @@ width: 280px;
 		margin: 0;
 		padding: 0;
 		line-height: 0;
-}
-
-.cause-text-left {
-		overflow: hidden;
-		height: 256px;
-		font-size: 0;
 }
 
 .img-left img {
@@ -450,7 +478,7 @@ img {
 .devilbridge {
 		display: inline-block;
 		box-sizing: border-box;
-		width: 33%;
+		width: 400px;
 		height: 310px;
 		padding-top: 4%;
 		padding-right: 5%;
@@ -460,26 +488,30 @@ img {
 		background-color: #81b3d2;
 }
 
-.devilbridge-description-number {
-		width: 180px;
-		margin-bottom: 15px;
-}
 
 .devilbridge-description-title {
-		width: 180px;
-		margin-bottom: 15px;
+		width: 240px;
+    margin-bottom: 24px;
+    line-height: 21px;
+    margin-top: 7px;
+    margin-left: 22px;
 }
 
 .devilbridge p {
-		margin-right: auto;
-		margin-left: auto;
 		text-align: center;
 }
 
 .devilbridge-description-number {
 		position: relative;
-		width: 50px;
-		margin-bottom: 20px;
+    width: 48px;
+    margin-bottom: 20px;
+    margin-left: 117px;
+    margin-top: 25px;
+}
+
+.devilbridge-description-subtitle {
+    margin-left: -17px;
+    width: 314px;
 }
 
 .devilbridge-description-number:after,
@@ -515,7 +547,8 @@ img {
 
 .side-facts .col{
 		min-height: 255px;
-		padding-top: 47px;
+    padding-top: 50px;
+    padding-left: 64px;
 }
 
 .side-facts .benefits-block-title {
@@ -524,7 +557,7 @@ img {
 
 .col-number:before, 
 .col-number:after {
-		background-color: #000000;
+		background-color: #979797;
 }
 
 .col-number{
@@ -534,13 +567,22 @@ img {
 }
 
 .col-number{
-		margin-right: auto;
-		margin-left: auto;
-		text-align: center;
+	  margin-right: 124px;
+    margin-top: 24px;
+    text-align: center;
+    margin-left: 111px;
 }
 
 .side-facts .col-title {
-		margin-bottom: 12px;
+		margin-bottom: 11px;
+    margin-top: -5px;
+    margin-left: 61px;
+    line-height: 22px;
+}
+
+.side-facts .col-about {
+    margin-left: -4px;
+    width: 280px;
 }
 
 .offer {
