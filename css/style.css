@@ -91,8 +91,9 @@ label {
 		padding-right: 6%;
 }
 
-.navigation a {
+ .navigation li {
 		display: inline-block;
+		width: 20%;
 		padding-top: 15px;
 		padding-bottom: 15px;
 		text-align: center;
@@ -100,20 +101,23 @@ label {
 		margin-top: -2px;		
 }
 
-.navigation a:nth-child(1) {
+.navigation li:nth-child(1) {
 		text-align: left;
 }
 
-.navigation a:nth-child(2) {
+.navigation li:nth-child(2) {
 		text-align: left;
+		margin-left: 30px;
 }
 
-.navigation a:nth-child(3) {
+.navigation li:nth-child(3){
 		text-align:right;
+		margin-left: 148px;
 }
 
-.navigation a:nth-child(4) {
-		text-align: right;
+.navigation li:nth-child(4) {
+		text-align:right;
+		margin-left: 33px;
 }
 
 .menu-logo {
@@ -1117,7 +1121,7 @@ input:checked + .filter-variant:before {
 .sort-result {
 		padding-top: 30px;
 		padding-bottom: 30px;
-		border: 1px solid#cccccc;
+		border: 1px solid #cccccc;
 }
 
 
