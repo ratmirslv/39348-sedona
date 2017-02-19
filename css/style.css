@@ -73,6 +73,9 @@ label {
 		max-width: 1200px;
 		margin: 0 auto;
 		background-color: #ffffff;
+		-webkit-box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3);
+    -moz-box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3);
+    box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3), 0 -10px 30px 0 #ffffff;
 }
 
 /* Шапка */
@@ -598,7 +601,7 @@ img {
 }
 
 .offer-title {
-		margin-bottom: 30px;
+		margin-bottom: 27px;
 }
 
 .offer-info {
@@ -609,39 +612,40 @@ img {
 }
 
 .offer-info {
-		width: 500px;
-		margin-right: auto;
-		margin-bottom: 45px;
-		margin-left: auto;
+    width: 500px;
+    margin-bottom: 49px;
+    margin-left: 351px;
+    line-height: 25px;
 }
 
 .offer-block {
-		position: relative;
-		width: 570px;
-		margin-right: auto;
-		margin-left: auto;
+    position: relative;
+    width: 568px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .offer-btn {
 		display: block;
-		width: 100%;
-		padding-top: 32px;
-		padding-bottom: 31px;
-		text-align: center;
-		text-decoration: none;
-		background-color: #766357;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #766357;
 }
 
 .offer-form {
 		position: absolute;
-		z-index: 100;
-		top: 89px;
-		left: 0;
-		display: block;
-		width: 460px;
-		padding: 55px;
-		background-color: #ffffff;
-		font-size: 0;
+    z-index: 100;
+    top: 86px;
+    left: 0;
+    display: block;
+    width: 458px;
+    padding: 55px;
+    background-color: #ffffff;
+    font-size: 0;
+    min-height: 285px;
 }
 
 form {
@@ -654,7 +658,7 @@ form {
 }
 
 .offer-form-row {
-		margin-bottom: 27px;
+		margin-bottom: 30px;
 		user-select: none;
 		font-size: 0;
 }
@@ -829,8 +833,9 @@ label {
 }
 
 .footer-copyright {
-		padding-top: 41px;
-		font-size: 0;
+		padding-top: 39px;
+    font-size: 0;
+    padding-left: 6px;
 }
 
 .social-btn {
@@ -912,9 +917,11 @@ form {
 .filter-housing, 
 .filter-infrastructure {
 		float: left;
-		box-sizing: border-box;
-		width: 256px;
-		padding-left: 6%;
+    box-sizing: border-box;
+    width: 254px;
+    padding-left: 73px;
+    margin-top: -4px;
+    margin-bottom: 3px;
 }
 
 .filter-price-title,
@@ -949,9 +956,14 @@ form {
 
 .filter-variant {
 		position: relative;
-		display: block;
-		margin-bottom: 27px;
-		margin-left: 40px;
+    display: block;
+    margin-bottom: 26px;
+    margin-left: 38px;
+    margin-top: 25px;
+}
+
+.filter-housing {
+    padding-left: 74px;
 }
 
 input + .filter-variant:before {
@@ -967,6 +979,13 @@ input + .filter-variant:before {
 .filter-housing-title,
 .filter-infrastructure-title {
 		margin-bottom: 24px;
+    margin-top: 1px;
+    margin-left: -1px;
+}
+
+.filter-housing .filter-variant {
+    margin-top: 24px;
+    margin-left: 40px;
 }
 
 input:checked + .filter-variant:before {
@@ -981,16 +1000,16 @@ input:checked + .filter-variant:before {
 
 .filter-price {
 		float: right;
-		box-sizing: border-box;
-		width: 33%;
-		padding-right: 7%;
-		text-align: center;
+    box-sizing: border-box;
+    width: 390px;
+    padding-right: 71px;
+    text-align: center;
 }
 
 .filter-price-title {
-		margin-bottom: 9px;
-		text-align: left;
-		margin-left: -10px;
+    margin-bottom: 9px;
+    text-align: left;
+    margin-left: -9px;
 }
 
 
@@ -1025,23 +1044,19 @@ input:checked + .filter-variant:before {
 
 .filter-btn {
 		width: 136px;
-		padding-top: 6px;
-		padding-bottom: 6px;
-		border: 2px solid #fff;
-		border-radius: 5px;
-		background-color: transparent;
-}
-
-.filter-price-scale {
-		position: relative;
-		min-height: 20px;
-		margin-bottom: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: -9px;
+    margin-top: -1px;
 }
 
 .filter-price-scale:before {
 		position: absolute;
 		top: 9px;
-		right: 10%;
+		right: 0%;
 		left: 0;
 		height: 2px;
 		content: "";
@@ -1089,9 +1104,9 @@ input:checked + .filter-variant:before {
 }
 
 .sort-result {
-		padding-top: 29px;
-		padding-bottom: 30px;
-		border: 1px solid#cccccc;
+		padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid#cccccc;
 }
 
 
@@ -1121,7 +1136,7 @@ input:checked + .filter-variant:before {
 }
 
 .options-about {
-		margin-right: 40px;
+		margin-right: 37px;
 }
 
 .sort-result span,
@@ -1130,7 +1145,7 @@ input:checked + .filter-variant:before {
 		color: #000;
 		font-size: 12px;
 		font-weight: 400;
-		line-height: 18px;
+		line-height: 17px;
 }
 
 .options-variant {
@@ -1153,28 +1168,32 @@ input:checked + .filter-variant:before {
 }
 
 .options-right-column {
-		float: right;
-		width: 70px;
-		margin-right: 7%;
-		padding-top: 12px;
-		text-align: right;
-		font-size: 0;
+    float: right;
+    width: 70px;
+    margin-right: 7%;
+    padding-top: 12px;
+    text-align: right;
+    font-size: 0;
 }
 
 .options-up-arrow {
 		position: relative;
+    margin-top: -3px;
+    margin-right: 5px;
 }
 
 .options-right-column a {
 		display: inline-block;
-		width: 11px;
-		height: 11px;
-		vertical-align: top;
+    width: 4px;
+    height: 14px;
+    vertical-align: top;
 }
 
 .options-down-arrow {
 		position: relative;
-		margin-left: 12px;
+    margin-left: 13px;
+    margin-top: -3px;
+    margin-right: -5px;
 }
 
 .options-up-arrow:before,
@@ -1200,8 +1219,8 @@ input:checked + .filter-variant:before {
 }
 
 .result-housing {
-		padding-top: 27px;
-		padding-bottom: 30px;
+		padding-top: 26px;
+		padding-bottom: 29px;
 		border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1251,6 +1270,7 @@ figure {
 .result-about-housing {
 		float: left;
 		width: 110px;
+		margin-top: 1px;
 }
 
 .result-about-price,
@@ -1279,6 +1299,7 @@ figure {
 .result-about-booking {
 		float: right;
 		width: 142px;
+	  margin-top: 1px;
 }
 
 .result-booking-btn {
@@ -1305,19 +1326,21 @@ figure {
 
 .result-ratings-four {
 		background: -483px -4px no-repeat url(../img/sprite.png);
-		width: 90px;
-		margin-left: 30px;
+    width: 90px;
+    margin-left: 29px;
+    margin-top: 2px;		
 }
 
 .result-ratings-three {
 		background: -483px -4px no-repeat url(../img/sprite.png);
 		width: 65px;
-		margin-left: 50px;
+		margin-left: 53px;
 }
 .result-ratings-two {
 		background: -483px -4px no-repeat url(../img/sprite.png);
 		width: 45px;
-		margin-left: 70px;
+		margin-left: 76px;
+		margin-top: 2px;
 }
 
 .result-mark-info {
@@ -1333,5 +1356,6 @@ figure {
 		padding-bottom: 4px;
 		text-align: center;
 		background-color: #f2f2f2;
+		margin-left: 9px;
 }
 
