@@ -487,6 +487,7 @@ img {
 		height: 256px;
 		font-size: 0;
 }
+
 .devilbridge {
 		display: inline-block;
 		box-sizing: border-box;
@@ -499,7 +500,6 @@ img {
 		vertical-align: top;
 		background-color: #81b3d2;
 }
-
 
 .devilbridge-description-title {
 		width: 240px;
@@ -1012,7 +1012,6 @@ input:checked + .filter-variant:before {
 		background: -119px -4px no-repeat url(../img/sprite.png);
 }
 
-
 .filter-price {
 		float: right;
 		box-sizing: border-box;
@@ -1351,6 +1350,7 @@ figure {
 		width: 65px;
 		margin-left: 53px;
 }
+
 .result-ratings-two {
 		background: -483px -4px no-repeat url(../img/sprite.png);
 		width: 45px;
@@ -1373,4 +1373,3 @@ figure {
 		background-color: #f2f2f2;
 		margin-left: 9px;
 }
-
