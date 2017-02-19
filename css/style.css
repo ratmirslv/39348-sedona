@@ -74,8 +74,8 @@ label {
 		margin: 0 auto;
 		background-color: #ffffff;
 		-webkit-box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3);
-    -moz-box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3);
-    box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3), 0 -10px 30px 0 #ffffff;
+		-moz-box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3);
+		box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3), 0 -10px 30px 0 #ffffff;
 }
 
 /* Шапка */
@@ -101,15 +101,19 @@ label {
 }
 
 .navigation a:nth-child(1) {
-		margin-right: 148px;
+		text-align: left;
 }
 
 .navigation a:nth-child(2) {
-		margin-right: 388px;
+		text-align: left;
 }
 
 .navigation a:nth-child(3) {
-		margin-right: 164px;
+		text-align:right;
+}
+
+.navigation a:nth-child(4) {
+		text-align: right;
 }
 
 .menu-logo {
@@ -129,6 +133,7 @@ label {
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 26px;
+		width: 20%;
 }
 
 /* Главный фон */
@@ -139,14 +144,14 @@ label {
 		padding-bottom: 90px;
 		text-align: center;
 		background: #647E94 0 -56px no-repeat url(../img/index-logo.jpg);
-    background-size: 100% auto;
-    min-height: 348px;
+		background-size: 100% auto;
+		min-height: 348px;
 }
 
 .card img{
 		position: absolute;
-    top: 76px;
-    left: 372px;
+		top: 76px;
+		left: 372px;
 }
 
 .card:after {
@@ -271,16 +276,16 @@ label {
 }
 
 .city-description {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 400px;
-    height: 310px;
-    padding-top: 54px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-    vertical-align: top;
-    background-color: #81b3d2;
+		display: inline-block;
+		box-sizing: border-box;
+		width: 400px;
+		height: 310px;
+		padding-top: 54px;
+		padding-right: 50px;
+		padding-left: 50px;
+		text-align: center;
+		vertical-align: top;
+		background-color: #81b3d2;
 }
 
 .city-description-title,
@@ -370,85 +375,85 @@ label {
 }
 
 .city-description-subtitle{
-width: 280px;
+		width: 280px;
 }
 
 .main-facts{
-	font-size: 0;
+		font-size: 0;
 }
 
 .col{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 400px;
-    min-height: 330px;
-    padding-top: 163px;
-    padding-right: 4%;
-    padding-left: 4%;
-    text-align: center;
-    vertical-align: top;
+		display: inline-block;
+		box-sizing: border-box;
+		width: 400px;
+		min-height: 330px;
+		padding-top: 163px;
+		padding-right: 4%;
+		padding-left: 4%;
+		text-align: center;
+		vertical-align: top;
 }
 
 .col-title{
-    position: relative;
-    width: 150px;
-    margin-right: auto;
-    margin-bottom: 27px;
-    margin-left: auto;
+		position: relative;
+		width: 150px;
+		margin-right: auto;
+		margin-bottom: 27px;
+		margin-left: auto;
 }
 
 .housing .col-title:before {
 		position: absolute;
-    top: -99px;
-    left: 38px;
-    width: 75px;
-    height: 75px;
-    content: "";
+		top: -99px;
+		left: 38px;
+		width: 75px;
+		height: 75px;
+		content: "";
 		background: -289px -4px no-repeat url(../img/sprite.png);
 }
 
 .housing p {
-    margin-top: -5px;
+		margin-top: -5px;
 }
 
 .food .col-title {
-    margin-bottom: 18px;
-    margin-top: -6px;
-    margin-left: 79px;
+		margin-bottom: 18px;
+		margin-top: -6px;
+		margin-left: 79px;
 }
 
 .souvenirs .col-about {
-    margin-top: -4px;
-    margin-left: 1px;
+		margin-top: -4px;
+		margin-left: 1px;
 }
 
 .food .col-about {
-    margin-top: 23px;
-    margin-left: 3px;
+		margin-top: 23px;
+		margin-left: 3px;
 }
 
 .souvenirs .col-title {
-    margin-top: -6px;
-    margin-left: 78px;
+		margin-top: -6px;
+		margin-left: 78px;
 }
 
 .food .col-title:before{
 		position: absolute;
-    top: -96px;
-    left: 37px;
-    width: 75px;
-    height: 70px;
-    content: "";
+		top: -96px;
+		left: 37px;
+		width: 75px;
+		height: 70px;
+		content: "";
 		background: -207px -4px no-repeat url(../img/sprite.png);
 }
 
 .souvenirs .col-title:before{
 		position: absolute;
-    top: -102px;
-    left: 43px;
-    width: 64px;
-    height: 76px;
-    content: "";
+		top: -102px;
+		left: 43px;
+		width: 64px;
+		height: 76px;
+		content: "";
 		background: -411px -4px no-repeat url(../img/sprite.png);
 }
 
@@ -494,10 +499,10 @@ img {
 
 .devilbridge-description-title {
 		width: 240px;
-    margin-bottom: 24px;
-    line-height: 21px;
-    margin-top: 7px;
-    margin-left: 22px;
+		margin-bottom: 24px;
+		line-height: 21px;
+		margin-top: 7px;
+		margin-left: 22px;
 }
 
 .devilbridge p {
@@ -506,15 +511,15 @@ img {
 
 .devilbridge-description-number {
 		position: relative;
-    width: 48px;
-    margin-bottom: 20px;
-    margin-left: 117px;
-    margin-top: 25px;
+		width: 48px;
+		margin-bottom: 20px;
+		margin-left: 117px;
+		margin-top: 25px;
 }
 
 .devilbridge-description-subtitle {
-    margin-left: -17px;
-    width: 314px;
+		margin-left: -17px;
+		width: 314px;
 }
 
 .devilbridge-description-number:after,
@@ -550,8 +555,8 @@ img {
 
 .side-facts .col{
 		min-height: 255px;
-    padding-top: 50px;
-    padding-left: 64px;
+		padding-top: 50px;
+		padding-left: 64px;
 }
 
 .side-facts .benefits-block-title {
@@ -570,22 +575,22 @@ img {
 }
 
 .col-number{
-	  margin-right: 124px;
-    margin-top: 24px;
-    text-align: center;
-    margin-left: 111px;
+		margin-right: 124px;
+		margin-top: 24px;
+		text-align: center;
+		margin-left: 111px;
 }
 
 .side-facts .col-title {
 		margin-bottom: 11px;
-    margin-top: -5px;
-    margin-left: 61px;
-    line-height: 22px;
+		margin-top: -5px;
+		margin-left: 61px;
+		line-height: 22px;
 }
 
 .side-facts .col-about {
-    margin-left: -4px;
-    width: 280px;
+		margin-left: -4px;
+		width: 280px;
 }
 
 .offer {
@@ -612,40 +617,40 @@ img {
 }
 
 .offer-info {
-    width: 500px;
-    margin-bottom: 49px;
-    margin-left: 351px;
-    line-height: 25px;
+		width: 500px;
+		margin-bottom: 49px;
+		margin-left: 351px;
+		line-height: 25px;
 }
 
 .offer-block {
-    position: relative;
-    width: 568px;
-    margin-right: auto;
-    margin-left: auto;
+		position: relative;
+		width: 568px;
+		margin-right: auto;
+		margin-left: auto;
 }
 
 .offer-btn {
 		display: block;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #766357;
+		width: 100%;
+		padding-top: 27px;
+		padding-bottom: 30px;
+		text-align: center;
+		text-decoration: none;
+		background-color: #766357;
 }
 
 .offer-form {
 		position: absolute;
-    z-index: 100;
-    top: 86px;
-    left: 0;
-    display: block;
-    width: 458px;
-    padding: 55px;
-    background-color: #ffffff;
-    font-size: 0;
-    min-height: 285px;
+		z-index: 100;
+		top: 86px;
+		left: 0;
+		display: block;
+		width: 458px;
+		padding: 55px;
+		background-color: #ffffff;
+		font-size: 0;
+		min-height: 285px;
 }
 
 form {
@@ -654,13 +659,15 @@ form {
 }
 
 .offer-form-dates {
-		margin-bottom: 32px;
+		margin-bottom: -2px;
+		margin-left: -1px;
 }
 
 .offer-form-row {
-		margin-bottom: 30px;
+		margin-bottom: 31px;
 		user-select: none;
 		font-size: 0;
+		margin-top: -4px;
 }
 
 label {
@@ -695,12 +702,13 @@ label {
 }
 
 .offer-form-dates + .offer-form-row {
-		margin-bottom: 55px;
+		margin-bottom: 51px;
+		margin-top: 29px;
 }
 
 .icon-calendar-arrive {
 		right: 65px;
-		top: 65px;
+		top: 60px;
 		width: 21px;
 		height: 22px;
 		background: no-repeat url(../img/sprite.png);
@@ -723,6 +731,9 @@ label {
 		cursor: pointer;
 }
 
+.offer-form-row input {
+	min-height: 30px;
+}
 
 .offer-form-col {
 		display: inline-block;
@@ -833,9 +844,9 @@ label {
 }
 
 .footer-copyright {
-		padding-top: 39px;
-    font-size: 0;
-    padding-left: 6px;
+		padding-top: 41px;
+		font-size: 0;
+		padding-left: 7px;
 }
 
 .social-btn {
@@ -917,11 +928,11 @@ form {
 .filter-housing, 
 .filter-infrastructure {
 		float: left;
-    box-sizing: border-box;
-    width: 254px;
-    padding-left: 73px;
-    margin-top: -4px;
-    margin-bottom: 3px;
+		box-sizing: border-box;
+		width: 254px;
+		padding-left: 73px;
+		margin-top: -4px;
+		margin-bottom: 3px;
 }
 
 .filter-price-title,
@@ -956,14 +967,14 @@ form {
 
 .filter-variant {
 		position: relative;
-    display: block;
-    margin-bottom: 26px;
-    margin-left: 38px;
-    margin-top: 25px;
+		display: block;
+		margin-bottom: 26px;
+		margin-left: 38px;
+		margin-top: 25px;
 }
 
 .filter-housing {
-    padding-left: 74px;
+		padding-left: 74px;
 }
 
 input + .filter-variant:before {
@@ -979,13 +990,13 @@ input + .filter-variant:before {
 .filter-housing-title,
 .filter-infrastructure-title {
 		margin-bottom: 24px;
-    margin-top: 1px;
-    margin-left: -1px;
+		margin-top: 1px;
+		margin-left: -1px;
 }
 
 .filter-housing .filter-variant {
-    margin-top: 24px;
-    margin-left: 40px;
+		margin-top: 24px;
+		margin-left: 40px;
 }
 
 input:checked + .filter-variant:before {
@@ -1000,16 +1011,16 @@ input:checked + .filter-variant:before {
 
 .filter-price {
 		float: right;
-    box-sizing: border-box;
-    width: 390px;
-    padding-right: 71px;
-    text-align: center;
+		box-sizing: border-box;
+		width: 390px;
+		padding-right: 71px;
+		text-align: center;
 }
 
 .filter-price-title {
-    margin-bottom: 9px;
-    text-align: left;
-    margin-left: -9px;
+		margin-bottom: 9px;
+		text-align: left;
+		margin-left: -9px;
 }
 
 
@@ -1044,13 +1055,13 @@ input:checked + .filter-variant:before {
 
 .filter-btn {
 		width: 136px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    background-color: transparent;
-    margin-left: -9px;
-    margin-top: -1px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		border: 2px solid #fff;
+		border-radius: 5px;
+		background-color: transparent;
+		margin-left: -9px;
+		margin-top: -1px;
 }
 
 .filter-price-scale:before {
@@ -1105,8 +1116,8 @@ input:checked + .filter-variant:before {
 
 .sort-result {
 		padding-top: 30px;
-    padding-bottom: 30px;
-    border: 1px solid#cccccc;
+		padding-bottom: 30px;
+		border: 1px solid#cccccc;
 }
 
 
@@ -1168,32 +1179,32 @@ input:checked + .filter-variant:before {
 }
 
 .options-right-column {
-    float: right;
-    width: 70px;
-    margin-right: 7%;
-    padding-top: 12px;
-    text-align: right;
-    font-size: 0;
+		float: right;
+		width: 70px;
+		margin-right: 7%;
+		padding-top: 12px;
+		text-align: right;
+		font-size: 0;
 }
 
 .options-up-arrow {
 		position: relative;
-    margin-top: -3px;
-    margin-right: 5px;
+		margin-top: -3px;
+		margin-right: 5px;
 }
 
 .options-right-column a {
 		display: inline-block;
-    width: 4px;
-    height: 14px;
-    vertical-align: top;
+		width: 4px;
+		height: 14px;
+		vertical-align: top;
 }
 
 .options-down-arrow {
 		position: relative;
-    margin-left: 13px;
-    margin-top: -3px;
-    margin-right: -5px;
+		margin-left: 13px;
+		margin-top: -3px;
+		margin-right: -5px;
 }
 
 .options-up-arrow:before,
@@ -1299,7 +1310,7 @@ figure {
 .result-about-booking {
 		float: right;
 		width: 142px;
-	  margin-top: 1px;
+		margin-top: 1px;
 }
 
 .result-booking-btn {
@@ -1326,10 +1337,10 @@ figure {
 
 .result-ratings-four {
 		background: -483px -4px no-repeat url(../img/sprite.png);
-    width: 90px;
-    margin-left: 29px;
-    margin-top: 2px;		
-}
+		width: 90px;
+		margin-left: 29px;
+		margin-top: 2px;		
+}	
 
 .result-ratings-three {
 		background: -483px -4px no-repeat url(../img/sprite.png);
