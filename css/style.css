@@ -110,7 +110,7 @@ label {
 		margin-left: 30px;
 }
 
-.navigation li:nth-child(3){
+.navigation li:nth-child(3) {
 		text-align:right;
 		margin-left: 148px;
 }
@@ -152,7 +152,7 @@ label {
 		min-height: 348px;
 }
 
-.card img{
+.card img {
 		position: absolute;
 		top: 76px;
 		left: 372px;
@@ -254,11 +254,11 @@ label {
 		line-height: 26px;
 }
 
-.main-description{
+.main-description {
 		margin-bottom: 29px;
 }
 
-.side-description{
+.side-description {
 		color: #000000;
 		font-size: 14px;
 		font-weight: 400;
@@ -266,7 +266,7 @@ label {
 }
 
 .main-description,
-.side-description{
+.side-description {
 		width: 500px;
 		margin-right: auto;
 		margin-left: auto;
@@ -294,7 +294,7 @@ label {
 
 .city-description-title,
 .devilbridge-description-title,
-.offer-btn{
+.offer-btn {
 		text-transform: uppercase;
 		color: #ffffff;
 		font-size: 21px;
@@ -302,12 +302,12 @@ label {
 		line-height: 26px;
 }
 
-.city-description-title{
+.city-description-title {
 		width: 130px;
 		margin-bottom: 24px;
 }
 
-.city-description p{
+.city-description p {
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
@@ -321,7 +321,7 @@ label {
 .col-number,
 .col-about,
 .result-housing-type,
-.result-about-price{
+.result-about-price {
 		color: #000000;
 		font-size: 14px;
 		font-weight: 400;
@@ -331,7 +331,7 @@ label {
 .city-description-number,
 .city-description-subtitle,
 .devilbridge-description-number,
-.devilbridge-description-subtitle{
+.devilbridge-description-subtitle {
 		color: #ffffff;
 }
 
@@ -351,7 +351,7 @@ label {
 		background-color: #bcd6e7;
 }
 
-.city-description-number:after{
+.city-description-number:after {
 		position: absolute;
 		top: 9px;
 		right: 0;
@@ -361,7 +361,7 @@ label {
 		background-color: #bcd6e7;
 }
 
-.img-right{
+.img-right {
 		margin: 0;
 		padding: 0;
 		line-height: 0;
@@ -378,15 +378,15 @@ label {
 		width: 100%;
 }
 
-.city-description-subtitle{
+.city-description-subtitle {
 		width: 280px;
 }
 
-.main-facts{
+.main-facts {
 		font-size: 0;
 }
 
-.col{
+.col {
 		display: inline-block;
 		box-sizing: border-box;
 		width: 400px;
@@ -398,7 +398,7 @@ label {
 		vertical-align: top;
 }
 
-.col-title{
+.col-title {
 		position: relative;
 		width: 150px;
 		margin-right: auto;
@@ -441,7 +441,7 @@ label {
 		margin-left: 78px;
 }
 
-.food .col-title:before{
+.food .col-title:before {
 		position: absolute;
 		top: -96px;
 		left: 37px;
@@ -451,7 +451,7 @@ label {
 		background: -207px -4px no-repeat url(../img/sprite.png);
 }
 
-.souvenirs .col-title:before{
+.souvenirs .col-title:before {
 		position: absolute;
 		top: -102px;
 		left: 43px;
@@ -461,13 +461,13 @@ label {
 		background: -411px -4px no-repeat url(../img/sprite.png);
 }
 
-.img-left{
+.img-left {
 		display: inline-block;
 		width: 800px;
 		vertical-align: top;
 }
 
-.img-left{
+.img-left {
 		margin: 0;
 		padding: 0;
 		line-height: 0;
@@ -527,7 +527,7 @@ img {
 }
 
 .devilbridge-description-number:after,
-.col-number:after{
+.col-number:after {
 		position: absolute;
 		top: 9px;
 		right: 0;
@@ -538,7 +538,7 @@ img {
 }
 
 .devilbridge-description-number:before,
-.col-number:before{
+.col-number:before {
 		position: absolute;
 		top: 9px;
 		left: 0;
@@ -557,7 +557,7 @@ img {
 		background-color: #eeeeee;
 }
 
-.side-facts .col{
+.side-facts .col {
 		min-height: 255px;
 		padding-top: 50px;
 		padding-left: 64px;
@@ -572,13 +572,13 @@ img {
 		background-color: #979797;
 }
 
-.col-number{
+.col-number {
 		position: relative;
 		width: 50px;
 		margin-bottom: 20px;
 }
 
-.col-number{
+.col-number {
 		margin-right: 124px;
 		margin-top: 24px;
 		text-align: center;
@@ -736,7 +736,7 @@ label {
 }
 
 .offer-form-row input {
-	min-height: 30px;
+		min-height: 30px;
 }
 
 .offer-form-col {
@@ -819,7 +819,7 @@ label {
 		height: 473px;
 }
 
-.footer-hashtag{
+.footer-hashtag {
 		text-decoration: none;
 		color: #000000;
 		font-size: 21px;
@@ -829,7 +829,7 @@ label {
 
 .footer-hashtag,
 .footer-social,
-.footer-copyright{
+.footer-copyright {
 		display: inline-block;
 		box-sizing: border-box;
 		width: 33.33%;
@@ -888,7 +888,7 @@ label {
 		background: -685px -20px no-repeat url(../img/sprite.png);
 }
 
-.footer-copyright-by{
+.footer-copyright-by {
 		color: #000000;
 		font-size: 14px;
 		font-weight: 400;
@@ -913,7 +913,7 @@ footer {
 		font-size: 0;
 }
 
-.navigation .menu-active{
+.navigation .menu-active {
 		color: #766357;
 }
 
@@ -1026,7 +1026,6 @@ input:checked + .filter-variant:before {
 		margin-left: -9px;
 }
 
-
 .filter-price-boundaries {
 		margin-bottom: 11px;
 		padding-top: 5px;
@@ -1122,7 +1121,6 @@ input:checked + .filter-variant:before {
 		padding-bottom: 30px;
 		border: 1px solid #cccccc;
 }
-
 
 .options-left-column {
 		float: left;
@@ -1267,7 +1265,7 @@ figure {
 		width: 258px;
 }
 
-.result-infoblock-title{
+.result-infoblock-title {
 		text-decoration: none;
 		color: #000;
 		font-size: 21px;
