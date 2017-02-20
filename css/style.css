@@ -50,16 +50,8 @@ a:focus {
 		outline: none;
 }
 
-figure {
-		line-height: 0;
-}
-
 ul {
 		list-style: none;
-}
-
-label {
-		cursor: pointer;
 }
 
 .clearfix::after {
@@ -657,11 +649,6 @@ img {
 		min-height: 285px;
 }
 
-form {
-		display: block;
-		margin-top: 0em;
-}
-
 .offer-form-dates {
 		margin-bottom: -2px;
 		margin-left: -1px;
@@ -672,10 +659,6 @@ form {
 		user-select: none;
 		font-size: 0;
 		margin-top: -4px;
-}
-
-label {
-		cursor: pointer;
 }
 
 .offer-form-label,
@@ -693,6 +676,7 @@ label {
 		width: 110px;
 		text-align: left;
 		vertical-align: middle;
+		cursor: pointer;
 }
 
 .offer-form-row input {
@@ -807,6 +791,7 @@ label {
 		padding-bottom: 18px;
 		border: none;
 		background-color: #81b3d2;
+		cursor: pointer;
 }
 
 .offer-form-col label {
@@ -924,11 +909,6 @@ footer {
 		background-position-y: -55px;
 }
 
-form {
-		display: block;
-		margin-top: 0em;
-}
-
 .filter-housing, 
 .filter-infrastructure {
 		float: left;
@@ -975,6 +955,7 @@ form {
 		margin-bottom: 26px;
 		margin-left: 38px;
 		margin-top: 25px;
+		cursor: pointer;
 }
 
 .filter-housing {
@@ -1064,6 +1045,7 @@ input:checked + .filter-variant:before {
 		background-color: transparent;
 		margin-left: -9px;
 		margin-top: -1px;
+		cursor: pointer;
 }
 
 .filter-price-scale:before {
@@ -1255,10 +1237,6 @@ input:checked + .filter-variant:before {
 		min-height: 90px;
 		margin-right: 31px;
 		padding-top: 3px;
-}
-
-figure {
-		line-height: 0;
 }
 
 .result-housing-infoblock {
